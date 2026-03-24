@@ -1,0 +1,16 @@
+# global
+node_modules/
+.env
+
+# client
+client/node_modules
+client/build
+
+# server
+server/node_modules
+
+# logs
+*.log
+
+# editor
+.vscode/
