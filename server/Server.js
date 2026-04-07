@@ -34,6 +34,12 @@ app.use('/api/cart', cartRouter)
 app.use('/api/address', addressRouter)
 app.use('api/order', orderRouter)
 
-app.listen(port, () => {
-    console.log(`Server is runing on http:localhost${port}`);
-})
+
+
+if (process.env.NODE_ENV !== "production") {
+    app.listen(5000, () => {
+      console.log("Server running");
+    });
+  }
+  
+  export default app;
