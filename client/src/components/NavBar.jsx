@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from '../assets/logo.jpg'
 import searchIcon from "../assets/searchIcon.jpg";
@@ -10,11 +10,11 @@ import toast from "react-hot-toast";
 
 
 const NavBar = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
   const { user, setuser, setshowUserLogin, navigate, searchQuery, setsearchQuery,
     getCartCount, axios } = useAppcontext();
 
-  const logout = async() => {
+  const logout = async () => {
    try {
     const {data} = await axios.get('/api/user/logout')
     if(data.success){
