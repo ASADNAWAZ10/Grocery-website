@@ -4,10 +4,10 @@ import cors from 'cors';
 import connectDB from './config/db.js';
 import 'dotenv/config';
 import UserRoute from './routes/UserRoute.js';
-import sellerRouter from './routes/SellerRoute.js';
-import Cloudinary from './config/Cloudinary.js';
-import productRouter from './routes/productRoute.js'
-import CartRoute from './routes/CartRoute.js';
+import sellerRoute from './routes/SellerRoute.js';
+import connectCloudinary from './config/Cloudinary.js';
+import productRoute from './routes/productRoute.js'
+import cartRoute from './routes/CartRoute.js';
 import addressRoute from './routes/addressRoute.js';
 import orderRoute from './routes/orderRoute.js';
 
@@ -17,7 +17,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 await connectDB()
-await Cloudinary()
+await connectCloudinary()
 
 //Allow Multiple Origins
 const allowdOrigins = ["http://localhost:5173"]
@@ -29,11 +29,11 @@ app.use(cors({ origin: allowdOrigins, credentials: true }))
 
 app.get('/', async (req, res) => res.send('API is Working'))
 app.use('/api/user', UserRoute)
-app.use('/api/seller', sellerRouter)
-app.use('/api/product', productRouter)
-app.use('/api/cart', CartRoute)
+app.use('/api/seller', sellerRoute)
+app.use('/api/product', productRoute)
+app.use('/api/cart', cartRoute)
 app.use('/api/address', addressRoute)
-app.use('/api/order', orderRoute)
+app.use('api/order', orderRoute)
 
 
 
@@ -43,4 +43,4 @@ if (process.env.NODE_ENV !== "production") {
     });
   }
   
- module.exports = app;
+ export default app;
