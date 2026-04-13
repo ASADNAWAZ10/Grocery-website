@@ -3,7 +3,7 @@ import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import connectDB from './config/db.js';
 import 'dotenv/config';
-import userRouter from './routes/UserRoute.js';
+import UserRoute from './routes/UserRoute.js';
 import sellerRouter from './routes/SellerRoute.js';
 import connectCloudinary from './config/Cloudinary.js';
 import productRouter from './routes/productRoute.js'
@@ -27,7 +27,7 @@ app.use(cookieParser());
 app.use(cors({ origin: allowdOrigins, credentials: true }))
 
 app.get('/', async (req, res) => res.send('API is Working'))
-app.use('/api/user', userRouter)
+app.use('/api/user', UserRoute)
 app.use('/api/seller', sellerRouter)
 app.use('/api/product', productRouter)
 app.use('/api/cart', cartRouter)
