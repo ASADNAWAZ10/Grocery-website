@@ -1,4 +1,4 @@
-import asset, {footerLinks} from '../assets/asset';
+import asset, {footerLinks} from '../assets/asset.js';
 
 const Footer = () => {
     return (

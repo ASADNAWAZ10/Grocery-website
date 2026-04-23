@@ -1,7 +1,7 @@
 import React from 'react'
 import bottomBanner from '../assets/bottomBanner.jpg'
 import bottombanner_sm from '../assets/bottombanner_sm.jpg'
-import {features} from '../assets/asset'
+import {features} from '../assets/asset.js'
 
 const BottomBanner = () => {
   return (

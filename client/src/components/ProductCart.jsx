@@ -1,8 +1,7 @@
 import React from 'react'
 import star_Icon from '../assets/star_Icon.jpg'
 import Cart from '../assets/Cart.jpg'
-import { useAppcontext } from '../context/AppContext';
-import { Navigate } from 'react-router-dom';
+import { useAppcontext } from '../context/AppContext.jsx';
 
 export const ProductCart = ({product}) => {
     const {currency, addToCart, removefromCart, cartItem,navigate} = useAppcontext();
@@ -29,7 +28,7 @@ export const ProductCart = ({product}) => {
                          
                 <div className="flex items-end justify-between mt-3">
                     <p className="md:text-xl text-base font-medium text-primary">
-                   {currency}${product.offerPrice} {' '} <span className="text-gray-500/60 md:text-sm text-xs line-through">{currency}{product.price}</span>
+                   {currency}{product.offerPrice} {' '} <span className="text-gray-500/60 md:text-sm text-xs line-through">{currency}{product.price}</span>
                     </p>
                     <div className="text-primary" onClick={(e) => {e.stopPropagation();}}>
                         {!cartItem[product._id] ? (

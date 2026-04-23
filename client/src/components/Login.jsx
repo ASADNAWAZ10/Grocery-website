@@ -1,15 +1,15 @@
-import React from "react";
-import { useAppcontext } from "../context/AppContext";
+import React, { useState } from "react";
+import { useAppcontext } from "../context/AppContext.jsx";
 import toast from "react-hot-toast";
 
 const Login = () => {
 
     const {setshowUserLogin, setuser, axios, navigate} = useAppcontext();
 
-    const [state, setState] = React.useState("login");
-    const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [password, setPassword] = React.useState("");
+    const [state, setState] = useState("login");
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
     const onSubmitHandler = async(e) => {
     try {
@@ -57,7 +57,7 @@ const Login = () => {
             </div>
             {state === "register" ? (
                 <p>
-                    Already have account? <span onClick={() => setState("login")} className="text-indigo-500 cursor-pointer">click here</span>
+                    Already have account? <span onClick={() => setState("login")} className="text-primary cursor-pointer">click here</span>
                 </p>
             ) : (
                 <p>

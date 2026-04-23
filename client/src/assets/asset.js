@@ -41,7 +41,6 @@ import bananabread from '../assets/bananabread.jpg'
 import biscuit from '../assets/biscuit.jpg'
 import cakes from '../assets/cakes.jpg'
 import pitabread from '../assets/pitabread.jpg'
-import CannedCurry from '../assets/CannedCurry.jpg'
 import lime from '../assets/lime.jpg'
 import Milk from '../assets/Milk.jpg'
 
