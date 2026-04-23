@@ -16,7 +16,7 @@ import rightArrow from '../assets/rightArrow.png'
 import vegetables from './vegetables.jpg'
 import star_Icon from '../assets/star_Icon.jpg'
 import starIcon from '../assets/starIcon.jpg'
-import bottombanner from './bottombanner.jpg'
+import BottomBanners from './BottomBanners.jpg'
 import bottombanner_sm from './bottombanner_sm.jpg'
 import icecream from '../assets/icecream.jpg'
 import butter from '../assets/butter.jpg'
@@ -1449,4 +1449,4 @@ export const dummyOrders = [
   }
 ];
 
-export default { starIcon,upload_area,boxIcon, AddAddress, star_Icon, bottombanner, bottombanner_sm, logo,remove,rightArrow }
+export default { starIcon,upload_area,boxIcon, AddAddress, star_Icon, BottomBanners, bottombanner_sm, logo,remove,rightArrow }

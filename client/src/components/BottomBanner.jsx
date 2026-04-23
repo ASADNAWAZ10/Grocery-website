@@ -1,5 +1,5 @@
 import React from 'react'
-import bottomBanner from '../assets/bottomBanner.jpg'
+import BottomBanners from '../assets/BottomBanner'
 import bottombanner_sm from '../assets/bottombanner_sm.jpg'
 import {features} from '../assets/asset.js'
 
@@ -7,7 +7,7 @@ const BottomBanner = () => {
   return (
     <div className='flex flex-col-reverse gap-5 items-center mt-24 md:flex-row md:gap-8 
     md:justify-around '>
-      <img src={bottomBanner} alt="" className='h-100 w-100 hidden md:block'/>
+      <img src={BottomBanners} alt="" className='h-100 w-100 hidden md:block'/>
         <img src={bottombanner_sm} alt="" className='h-100 w-100  md:hidden'/>
 
       <div>
