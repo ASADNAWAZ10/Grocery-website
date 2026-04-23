@@ -1,8 +1,8 @@
-import v1 from './v1.jpg'
-import v2 from './v2.jpg'
-import v3 from './v3.jpg'
-import v4 from './v4.jpg'
-import v5 from './v5.jpg'
+// import v1 from './v1.jpg'
+// import v2 from './v2.jpg'
+// import v3 from './v3.jpg'
+// import v4 from './v4.jpg'
+// import v5 from './v5.jpg'
 import remove from '../assets/remove.png'
 import upload_area from '../assets/upload_area.png'
 import boxIcon from '../assets/boxIcon.png'
@@ -18,35 +18,35 @@ import star_Icon from '../assets/star_Icon.jpg'
 import starIcon from '../assets/starIcon.jpg'
 import BottomBanners from './BottomBanners.jpg'
 import bottombanner_sm from './bottombanner_sm.jpg'
-import iceCream from '../assets/iceCream.jpg'
-import butter from '../assets/butter.jpg'
+// import iceCream from '../assets/iceCream.jpg'
+// import butter from '../assets/butter.jpg'
 import leaf_icon from './leaf_icon.jpg'
 import LoveIcon from './LoveIcon.jpg'
 
 import DeliveryIcon from './DeliveryIcon.jpg'
 import coinIcon from './coinIcon.jpg'
 import logo from './logo.jpg'
-import pepsi from '../assets/pepsi.jpg'
-import redAnner from '../assets/redAnner.jpg'
+// import pepsi from '../assets/pepsi.jpg'
+// import redAnner from '../assets/redAnner.jpg'
 import addAddress from '../assets/addAddress.png'
 
 import EnergyDrink from '../assets/EnergyDrink.jpg'
-import sprite from '../assets/sprite.jpg'
+// import sprite from '../assets/sprite.jpg'
 import Apple from '../assets/Apple.jpg'
-import orange from '../assets/orange.jpg'
-import Mango from '../assets/Mango.jpg'
-import cheese from '../assets/cheese.jpg'
-import yogurt from '../assets/yogurt.jpg'
-import banana from '../assets/banana.jpg'
-import cocacola from '../assets/cocacola.jpg'
-import bananabread from '../assets/bananabread.jpg'
-import biscuit from '../assets/biscuit.jpg'
-import cakes from '../assets/cakes.jpg'
-import pitabread from '../assets/pitabread.jpg'
-import lime from '../assets/lime.jpg'
-import Milk from '../assets/Milk.jpg'
+// import orange from '../assets/orange.jpg'
+// import Mango from '../assets/Mango.jpg'
+// import cheese from '../assets/cheese.jpg'
+// import yogurt from '../assets/yogurt.jpg'
+// import banana from '../assets/banana.jpg'
+// import cocacola from '../assets/cocacola.jpg'
+// import bananaBread from '../assets/bananaBread.jpg'
+// import biscuit from '../assets/biscuit.jpg'
+// import cakes from '../assets/cakes.jpg'
+// import pitabread from '../assets/pitabread.jpg'
+// import lime from '../assets/lime.jpg'
+// import Milk from '../assets/Milk.jpg'
 
-import potochips from '../assets/potochips.jpg'
+// import potochips from '../assets/potochips.jpg'
 
 export const categories = [
 
@@ -592,655 +592,655 @@ export const dummyProduct = [
       }
   ];
 
-export const dummyProducts = [
-    //vegetables
-    {
-        _id: "fd46g23h",
-        name: "Pototo 500g",
-        category: "vegetables",
-        price: 29,
-        offerPrice: 30,
+// export const dummyProducts = [
+//     //vegetables
+//     {
+//         _id: "fd46g23h",
+//         name: "Pototo 500g",
+//         category: "vegetables",
+//         price: 29,
+//         offerPrice: 30,
        
-        image: [v1, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [v1, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd46g24h",
-        name: "tomato 500g",
-        category: "vegetables",
-        price: 26,
-        offerPrice: 30,
+//     {
+//         _id: "fd46g24h",
+//         name: "tomato 500g",
+//         category: "vegetables",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [v1, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [v1, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
 
-    {
-        _id: "fd46g25h",
-        name: "carrot 500g",
-        category: "vegetables",
-        price: 26,
-        offerPrice: 30,
+//     {
+//         _id: "fd46g25h",
+//         name: "carrot 500g",
+//         category: "vegetables",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [v1, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [v1, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
 
 
-    {
-        _id: "fd46g26h",
-        name: "Pototo 500g",
-        category: "vegetables",
-        price: 26,
-        offerPrice: 30,
+//     {
+//         _id: "fd46g26h",
+//         name: "Pototo 500g",
+//         category: "vegetables",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [v1, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [v1, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd46g27h",
-        name: "Pototo 500g",
-        category: "vegetables",
-        price: 26,
-        offerPrice: 30,
+//     {
+//         _id: "fd46g27h",
+//         name: "Pototo 500g",
+//         category: "vegetables",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [v1, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [v1, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    //Fruits
-    {
-        _id: "fd46g28h",
-        name: "Apple",
-        category: "fruits",
-        price: 26,
-        offerPrice: 30,
+//     //Fruits
+//     {
+//         _id: "fd46g28h",
+//         name: "Apple",
+//         category: "fruits",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [Apple, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [Apple, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd46g29h",
-        name: "Mango",
-        category: "fruits",
-        price: 26,
-        offerPrice: 30,
+//     {
+//         _id: "fd46g29h",
+//         name: "Mango",
+//         category: "fruits",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [Mango, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [Mango, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd46g30h",
-        name: "banana",
-        category: "fruits",
-        price: 26,
-        offerPrice: 30,
+//     {
+//         _id: "fd46g30h",
+//         name: "banana",
+//         category: "fruits",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [banana, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [banana, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd46g31h",
-        name: "Orange",
-        category: "fruits",
-        price: 26,
-        offerPrice: 30,
+//     {
+//         _id: "fd46g31h",
+//         name: "Orange",
+//         category: "fruits",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [orange, v2, v3, v4, v5],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [orange, v2, v3, v4, v5],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd46g32h",
-        name: "Lime",
-        category: "fruits",
-        price: 26,
-        offerPrice: 30,
+//     {
+//         _id: "fd46g32h",
+//         name: "Lime",
+//         category: "fruits",
+//         price: 26,
+//         offerPrice: 30,
        
-        image: [lime, banana, orange, Mango],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [lime, banana, orange, Mango],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    //ColdDrinks
-    {
-        _id: "fd46g23h",
-        name: "Pepsi",
-        category: "cold drinks",
-        price: 50,
-        offerPrice: 40,
-        // Rating: starIcon,
-        image: [pepsi],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//     //ColdDrinks
+//     {
+//         _id: "fd46g23h",
+//         name: "Pepsi",
+//         category: "cold drinks",
+//         price: 50,
+//         offerPrice: 40,
+//         // Rating: starIcon,
+//         image: [pepsi],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd46g25h",
-        name: "tomato 1kg",
-        category: "cold drinks",
-        price: 50,
-        offerPrice: 40,
-        // Rating: starIcon,
-        image: [sprite],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//     {
+//         _id: "fd46g25h",
+//         name: "tomato 1kg",
+//         category: "cold drinks",
+//         price: 50,
+//         offerPrice: 40,
+//         // Rating: starIcon,
+//         image: [sprite],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd46g25h",
-        name: "Energy Drinks",
-        category: "cold drinks",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd46g25h",
+//         name: "Energy Drinks",
+//         category: "cold drinks",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [EnergyDrink],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [EnergyDrink],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "CoCa-Cola",
-        category: "cold drinks",
-        price: 50,
-        offerPrice: 240,
+//     {
+//         _id: "fd47g25h",
+//         name: "CoCa-Cola",
+//         category: "cold drinks",
+//         price: 50,
+//         offerPrice: 240,
        
-        image: [cocacola],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [cocacola],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "Red Anner",
-        category: "cold drinks",
-        price: 50,
-        offerPrice: 140,
+//     {
+//         _id: "fd47g25h",
+//         name: "Red Anner",
+//         category: "cold drinks",
+//         price: 50,
+//         offerPrice: 140,
        
-        image: [redAnner],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [redAnner],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    //Bakery and Breads
-    {
-        _id: "fd47g25h",
-        name: "bananaBread",
-        category: "grains",
-        price: 50,
-        offerPrice: 40,
+//     //Bakery and Breads
+//     {
+//         _id: "fd47g25h",
+//         name: "bananaBread",
+//         category: "grains",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [bananabread],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [bananabread],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "Biscuits",
-        category: "grains",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "Biscuits",
+//         category: "grains",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [biscuit],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [biscuit],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "Cakes",
-        category: "grains",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "Cakes",
+//         category: "grains",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [cakes],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [cakes],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "Breads",
-        category: "grains",
-        price: 40,
-        offerPrice: 30,
+//     {
+//         _id: "fd47g25h",
+//         name: "Breads",
+//         category: "grains",
+//         price: 40,
+//         offerPrice: 30,
        
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "PitaBread",
-        category: "grains",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "PitaBread",
+//         category: "grains",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [pitabread],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [pitabread],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
 
-     //Dairy Products
-     {
-        _id: "fd47g25h",
-        name: "Ice Cream",
-        category: "dairy",
-        price: 50,
-        offerPrice: 40,
+//      //Dairy Products
+//      {
+//         _id: "fd47g25h",
+//         name: "Ice Cream",
+//         category: "dairy",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [iceCream],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [iceCream],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
  
-    {
-        _id: "fd47g25h",
-        name: "Cheese",
-        category: "dairy",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "Cheese",
+//         category: "dairy",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [cheese],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [cheese],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "Yogurt",
-        category: "dairy",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "Yogurt",
+//         category: "dairy",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [yogurt],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [yogurt],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "Milk",
-        category: "dairy",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "Milk",
+//         category: "dairy",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [Milk],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [Milk],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "Butter",
-        category: "dairy",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "Butter",
+//         category: "dairy",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [butter],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [butter],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    //Instant food
+//     //Instant food
     
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "instantfood",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "instantfood",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [potochips],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [potochips],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "instantfood",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "instantfood",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "instantfood",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "instantfood",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "instantfood",
-        price: 50,
-        offerPrice: 40,
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "instantfood",
+//         price: 50,
+//         offerPrice: 40,
        
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
-
-    
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "instantfood",
-        price: 50,
-        offerPrice: 40,
-       
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
-
-
-
-
-      //Orangic
-      {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "organic",
-        price: 50,
-        offerPrice: 40,
-       
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
-
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "organic",
-        price: 50,
-        offerPrice: 40,
-       
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
-
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "organic",
-        price: 50,
-        offerPrice: 40,
-       
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
-
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "organic",
-        price: 50,
-        offerPrice: 40,
-       
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
-
-    {
-        _id: "fd47g25h",
-        name: "tomato 1kg",
-        category: "organic",
-        price: 50,
-        offerPrice: 40,
-       
-        image: [breads],
-        description: [
-            "fresh and organic",
-            'rich in carbohydrates',
-            'ideal for curries and fies'
-        ],
-        createdAt: '2026-03-20T07:17:46.018z',
-        updatedAt: '2026-03-20T07:17:13.103z',
-        inStock: true,
-    },
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
 
     
-]
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "instantfood",
+//         price: 50,
+//         offerPrice: 40,
+       
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
+
+
+
+
+//       //Orangic
+//       {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "organic",
+//         price: 50,
+//         offerPrice: 40,
+       
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
+
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "organic",
+//         price: 50,
+//         offerPrice: 40,
+       
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
+
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "organic",
+//         price: 50,
+//         offerPrice: 40,
+       
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
+
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "organic",
+//         price: 50,
+//         offerPrice: 40,
+       
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
+
+//     {
+//         _id: "fd47g25h",
+//         name: "tomato 1kg",
+//         category: "organic",
+//         price: 50,
+//         offerPrice: 40,
+       
+//         image: [breads],
+//         description: [
+//             "fresh and organic",
+//             'rich in carbohydrates',
+//             'ideal for curries and fies'
+//         ],
+//         createdAt: '2026-03-20T07:17:46.018z',
+//         updatedAt: '2026-03-20T07:17:13.103z',
+//         inStock: true,
+//     },
+
+    
+// ]
 
 export const features = [
     {
