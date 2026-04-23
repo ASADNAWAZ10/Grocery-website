@@ -18,7 +18,7 @@ import star_Icon from '../assets/star_Icon.jpg'
 import starIcon from '../assets/starIcon.jpg'
 import BottomBanners from './BottomBanners.jpg'
 import bottombanner_sm from './bottombanner_sm.jpg'
-import icecream from '../assets/icecream.jpg'
+import iceCream from '../assets/iceCream.jpg'
 import butter from '../assets/butter.jpg'
 import leaf_icon from './leaf_icon.jpg'
 import loveIcon from './loveIcon.jpg'
@@ -967,7 +967,7 @@ export const dummyProducts = [
         price: 50,
         offerPrice: 40,
        
-        image: [icecream],
+        image: [iceCream],
         description: [
             "fresh and organic",
             'rich in carbohydrates',
