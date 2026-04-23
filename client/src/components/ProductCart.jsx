@@ -1,6 +1,6 @@
 import React from 'react'
 import star_Icon from '../assets/star_Icon.jpg'
-import Cart from '../assets/Cart.jpg'
+import cart from '../assets/cart.jpg'
 import { useAppcontext } from '../context/AppContext.jsx';
 
 export const ProductCart = ({product}) => {
@@ -34,7 +34,7 @@ export const ProductCart = ({product}) => {
                         {!cartItem[product._id] ? (
                             <button className="flex items-center justify-center gap-1 bg-primary/10 border border-primary/40 md:w-[80px] w-[64px] h-[34px] rounded text-primary/23 font-medium" onClick={() => addToCart(product._id)} >
                                
-                                <img src={Cart} alt="cartImage" /> 
+                                <img src={cart} alt="cartImage" /> 
                                 Add
                             </button>
                         ) : (
