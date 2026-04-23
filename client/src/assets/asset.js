@@ -21,7 +21,8 @@ import bottombanner_sm from './bottombanner_sm.jpg'
 import iceCream from '../assets/iceCream.jpg'
 import butter from '../assets/butter.jpg'
 import leaf_icon from './leaf_icon.jpg'
-import loveIcon from './loveIcon.jpg'
+import LoveIcon from './LoveIcon.jpg'
+
 import DeliveryIcon from './DeliveryIcon.jpg'
 import coinIcon from './coinIcon.jpg'
 import logo from './logo.jpg'
@@ -1263,7 +1264,7 @@ export const features = [
     },
 
     {
-        icon: loveIcon,
+        icon: LoveIcon,
         title: 'Trusted by Thousands',
         description: "Leaved by 10,000+happy customers"
     }
