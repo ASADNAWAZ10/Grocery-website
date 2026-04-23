@@ -106,7 +106,7 @@ const onSubmitHandler = async(e) => {
                                 </button>
                      </form>
                 </div>
-                <img src={asset.AddAddress} alt="AddAddress" className='md:mr-16 mb-16 md:mt-0'/>
+                <img src={asset.addAddress} alt="AddAddress" className='md:mr-16 mb-16 md:mt-0'/>
             </div>
     </div>
   )

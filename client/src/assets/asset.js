@@ -27,7 +27,8 @@ import coinIcon from './coinIcon.jpg'
 import logo from './logo.jpg'
 import pepsi from '../assets/pepsi.jpg'
 import redAnner from '../assets/redAnner.jpg'
-import AddAddress from '../assets/AddAddress.png'
+import addAddress from '../assets/addAddress.png'
+
 import EnergyDrink from '../assets/EnergyDrink.jpg'
 import sprite from '../assets/sprite.jpg'
 import Apple from '../assets/Apple.jpg'
@@ -1449,4 +1450,4 @@ export const dummyOrders = [
   }
 ];
 
-export default { starIcon,upload_area,boxIcon, AddAddress, star_Icon, BottomBanners, bottombanner_sm, logo,remove,rightArrow }
+export default { starIcon,upload_area,boxIcon, addAddress, star_Icon, BottomBanners, bottombanner_sm, logo,remove,rightArrow }
