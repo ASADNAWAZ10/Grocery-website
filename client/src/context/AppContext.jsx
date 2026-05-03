@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import axios from "axios";
 
-axios.defaults.withCredentials = true;
+axios.defaults.withCredentials = true; //for send user headers or authorization to backend so it should be true else backend will not indentify the user 
 axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
 
 export const AppContext = createContext();
