@@ -3,13 +3,13 @@ import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import connectDB from './config/db.js';
 import 'dotenv/config';
-import UserRoute from './routes/UserRoute.js';
-import sellerRoute from './routes/SellerRoute.js';
+import UserRouter from './routes/UserRoute.js';
+import sellerRouter from './routes/SellerRoute.js';
 import connectCloudinary from './config/Cloudinary.js';
-import productRoute from './routes/productRoute.js'
-import cartRoute from './routes/CartRoute.js';
-import addressRoute from './routes/addressRoute.js';
-import orderRoute from './routes/orderRoute.js';
+import productRouter from './routes/productRoute.js'
+import cartRouter from './routes/CartRoute.js';
+import addressRouter from './routes/addressRoute.js';
+import orderRouter from './routes/orderRoute.js';
 
 
 
@@ -28,12 +28,12 @@ app.use(cookieParser());
 app.use(cors({ origin: allowdOrigins, credentials: true }))
 
 app.get('/', async (req, res) => res.send('API is Working'))
-app.use('/api/user', UserRoute)
-app.use('/api/seller', sellerRoute)
-app.use('/api/product', productRoute)
-app.use('/api/cart', cartRoute)
-app.use('/api/address', addressRoute)
-app.use('api/order', orderRoute)
+app.use('/api/user', UserRouter)
+app.use('/api/seller', sellerRouter)
+app.use('/api/product', productRouter)
+app.use('/api/cart', cartRouter)
+app.use('/api/address', addressRouter)
+app.use('api/order', orderRouter)
 
 
 
