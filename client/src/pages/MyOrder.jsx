@@ -39,17 +39,18 @@ const MyOrder = () => {
                             </div>
                             <div className='ml-4'>
                                 <h2 className='text-xl font-medium text-gray-800'> {item.product.name} </h2>
-                                {/* <p>Categroy: {item.proudct.categroy} </p> */}
+                                <p>Categroy: {item.proudct.categroy} </p>
                             </div>
                         </div>
 
                         <div>
                             <p>Quantity: {item.quantity || '1'} </p>
                             <p>Status: {order.status} </p>
-                            <p>Date: {new Date(order.createAt).toLocaleDateString()} </p>
+                            <p>Date: {new Date(order.createdAt).toLocaleDateString()} </p>
                         </div>
-                        {/* <p className='text-primary text-lg font-medium'> */}
-                            {/* Amount: {currency} {item.proudct.offerPrice * item.quantity} </p> */}
+                        <p className='text-primary text-lg font-medium'>
+                          Amount: {currency} {item.product.offerPrice * item.quantity}
+                        </p>
                     </div>
                 ))}
             </div>

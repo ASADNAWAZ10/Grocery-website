@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useAppcontext } from "../../context/AppContext";
-import asset, { dummyOrders } from "../../assets/asset";
+import { useAppcontext } from "../../context/AppContext.jsx";
+import asset from "../../assets/asset.js";
 import toast from "react-hot-toast";
 
 const Orders = () => {
@@ -35,7 +35,7 @@ const Orders = () => {
         {order.map((order, index) => (
           <div
             key={index}
-            className="flex flex-col  md:items-center md:flex-row gap-5 p-5 justify-between max-w-4xl rounded-md border border-gray-300"
+            className="flex flex-col md:items-center md:flex-row gap-5 p-5 justify-between max-w-4xl rounded-md border border-gray-300"
           >
             <div className="flex gap-5 max-w-80">
               <img

@@ -1451,4 +1451,4 @@ export const dummyOrders = [
   }
 ];
 
-export default { starIcon,upload_area,boxIcon, addAddress, star_Icon, BottomBanners, bottombanner_sm, logo,remove,rightArrow }
+export default { starIcon,upload_area,boxIcon, addAddress, star_Icon, BottomBanners, bottombanner_sm, logo,remove,rightArrow}

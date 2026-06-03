@@ -1,5 +1,5 @@
 import React from 'react'
-import {categories} from '../assets/asset.js'
+import asset, {categories} from '../assets/asset.js'
 import {useAppcontext} from '../context/AppContext.jsx'
 
 
@@ -25,7 +25,7 @@ const Categories = () => {
             ))}
             <div className='group cursor-pointer py-5 px-3 gap-2 rounded-lg flex flex-col 
             justify-center items-center'>
-                <img src='' alt="" className='group-hover:scale-108 transition 
+                <img src={asset.logo} alt="" className='group-hover:scale-108 transition 
                 max-w-28' />   
                 
             </div>

@@ -125,7 +125,7 @@ const AddProduct = () => {
             id="category"
             className="outline-none md:py-2.5 py-2 px-3 rounded border border-gray-500/40"
           >
-            <option value={category}>Select Category</option>
+            <option value="">Select Category</option>
             {categories.map((item, index) => {
               <option key={index} value={item.path}>
                 {item.path}

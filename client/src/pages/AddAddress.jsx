@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import asset from '../assets/asset'
+import asset from '../assets/asset.js'
 import toast from 'react-hot-toast'
-import { useAppcontext } from '../context/AppContext'
+import { useAppcontext } from '../context/AppContext.jsx'
 
 //Input field component
 const InputField = ({type, placeholder, name, handleChange, address})=>(

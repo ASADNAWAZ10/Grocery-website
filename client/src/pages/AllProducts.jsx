@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import {useAppcontext} from '../context/AppContext'
-import { ProductCart } from '../components/ProductCart'
+import {useAppcontext} from '../context/AppContext.jsx'
+import { ProductCart } from '../components/ProductCart.jsx'
 
 
 const AllProducts = () => {
@@ -26,7 +26,7 @@ const AllProducts = () => {
      </div>
 
      <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 
-     md:gap-6 lg:grid-cols-5 mt-6'>
+     lg:gap-5 xl:grid-cols-6 mt-6'>
         {filterProducts.filter((product)=> product.inStock).map((product,index)=>(
             <ProductCart key={index} product={product} />
         ))}

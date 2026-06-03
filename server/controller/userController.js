@@ -13,7 +13,7 @@ try {
     }
     const existingUser = await User.findOne({email})
     if(existingUser)
-        return res.json({sucess: false, message: 'User already exists'})
+        return res.json({success: false, message: 'User already exists'})
 
     const hashedPassword = await bcrypt.hash(password, 10)
     
@@ -59,7 +59,7 @@ export const login = async(req, res) => {
                 samsite: process.env.NODE_ENV === 'production' ? 'none' : 'strict', 
                 maxAge: 7 * 24 * 60 * 60 * 1000, 
             })
-            return res.json({sucess: true, user: ({email: user.email, name: user.name})})
+            return res.json({success: true, user: ({email: user.email, name: user.name})})
         } catch (error) {
             console.log(error.message);
             res.json({sucess: false, message: error.message})
@@ -68,7 +68,7 @@ export const login = async(req, res) => {
         }
 
         //check Auth: /api/user/is-auth
-        export const isAuth = async () => {
+        export const isAuth = async (req, res) => {
             try {
                 const {userId} = req.body;
                 const user = await User.findbyId(userId).select("-password")
@@ -80,7 +80,7 @@ export const login = async(req, res) => {
             }
         }
 
-        export const logout = async() => {
+        export const logout = async(req, res) => {
             try {
                 res.clearCookie('token', {
                     httpOnly: true, 

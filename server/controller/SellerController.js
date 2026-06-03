@@ -14,13 +14,13 @@ export const sellerLogin = async (req, res) => {
             samsite: process.env.NODE_ENV === 'production' ? 'none' : 'strict', 
             maxAge: 7 * 24 * 60 * 60 * 1000, 
         })
-        return res.json({sucess: true, message: "Logged In" })
+        return res.json({success: true, message: "Logged In" })
     } else{
-        return res.json({sucess: false, message: "Invalid Credentails" })
+        return res.json({success: false, message: "Invalid Credentails" })
     }
    } catch (error) {
     console.log(error.message)
-    return res.json({sucess: false, message: error.message })
+    return res.json({success: false, message: error.message })
    }
  }
 

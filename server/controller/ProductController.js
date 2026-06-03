@@ -15,7 +15,7 @@ try {
                 return result.secure_url
         })
     )
-    await product.create({...productData, image:imageURL})
+    await Product.create({...productData, image:imageURL})
     res.json({success: true, message:"Product Added"})
 } catch (error) {
     console.log(error.message)
@@ -27,7 +27,7 @@ try {
 export const productList = async (req,res) => {
 try {
     const products = await Product.find({})
-    res.json({sucess: true, products})
+    res.json({success: true, products})
 } catch (error) {
     console.log(error.message)
     res.json({success:false, message:error.message})

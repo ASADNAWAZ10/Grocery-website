@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react"
-import { useAppcontext } from "../context/AppContext"
-import  asset, { dummyAddress } from "../assets/asset"
+import { useAppcontext } from "../context/AppContext.jsx"
+import  asset, { dummyAddress } from "../assets/asset.js"
 import toast from "react-hot-toast"
 
 const Cart = () => {
@@ -41,8 +41,6 @@ const Cart = () => {
         }
 
     }
-
-   
 
     useEffect(()=>{
         if(products.length > 0 && cartItem){
@@ -166,7 +164,7 @@ const Cart = () => {
                         <p className="text-gray-500">{selectAddress ? `${selectAddress.street}
                         , ${selectAddress.city}, ${selectAddress.state}, ${selectAddress.country}`
                     : 'No address found'}</p>
-                        <button onClick={() => setShowAddress(!showAddress)} className="text-indigo-500 hover:underline cursor-pointer">
+                        <button onClick={() => setShowAddress(!showAddress)} className="text-primary hover:underline cursor-pointer">
                             Change
                         </button>
                         {showAddress && (
