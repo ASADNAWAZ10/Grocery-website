@@ -121,7 +121,7 @@ npm run dev
 **Asad Nawaz**
 
 * GitHub: https://github.com/ASADNAWAZ10
-* LinkedIn: https://www.linkedin.com/in/asad-nawaz
+* Live Demo: https://grocery-website-project.vercel.app
 * Email: [asadnawaz20@gmail.com](mailto:asadnawaz20@gmail.com)
 
 ## 📜 License
