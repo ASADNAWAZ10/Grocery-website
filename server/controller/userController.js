@@ -52,6 +52,8 @@ export const login = async(req, res) => {
         
             if(!isMatch)
                 return res.json({sucess: false, message: "Invalid email Or Password"})
+ 
+           const token = jwt.sign({id: user._id}, process.env.JWT_SECRET, {expiresIn: '7d'})
 
             res.cookie('token',token, {
                 httpOnly: true, 
