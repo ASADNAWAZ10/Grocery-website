@@ -39,7 +39,7 @@ const MyOrder = () => {
                             </div>
                             <div className='ml-4'>
                                 <h2 className='text-xl font-medium text-gray-800'> {item.product.name} </h2>
-                                <p>Categroy: {item.proudct.categroy} </p>
+                                <p>Categroy: {item?.proudct?.categroy} </p>
                             </div>
                         </div>
 
