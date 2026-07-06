@@ -16,9 +16,9 @@ const NavBar = () => {
 
   const logout = async () => {
    try {
-    const {data} = await axios.get('/api/user/logout',{
-       withCredentials: true
-    })
+    const {data} = await axios.get('/api/user/logout', {
+      withCredentails: true
+    });
     if(data.success){
       toast.success(data.message)
       setuser(null);
