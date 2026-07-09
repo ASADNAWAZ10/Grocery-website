@@ -17,7 +17,7 @@ const NavBar = () => {
   const logout = async () => {
    try {
     const {data} = await axios.get('/api/user/logout', {
-      withCredentails: true
+      withCredentials: true
     });
     if(data.success){
       toast.success(data.message)
